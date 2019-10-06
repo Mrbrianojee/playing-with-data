@@ -1,2 +1,3 @@
 with open("Colors.txt", 'r') as open_file:
-    print("Colors.txt content \n" + open_file.read())
+    for obvservation in open_file:
+        print("Reading data: " + obvservation)
